@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {Card, CardImg, CardTitle} from 'reactstrap'
 
 function RenderMenuItem({dish, onClick }) {
@@ -27,6 +27,7 @@ const Menu = (props) => {
             <div className="row">
                 {menu}
             </div>
+
         </div>
     )
 }
