@@ -38,8 +38,9 @@ const CommentsDish = ({dish}) => {
 const DishDetail = (props) => {
     if (props.dish != null) {
         return (
-            <div className="row">
-        <div className='col-12 col-md-5 m-1'>
+        <div className="container">
+        <div className="row">
+        <div className=' offset-1 col-12 col-md-5 m-1'>
         <RenderDish dish= {props.dish}/>
         </div>
         <div className='col-12 col-md-5 m-1'>
@@ -48,6 +49,7 @@ const DishDetail = (props) => {
           </div>   
         </div>
     </div>
+</div>
         )
     }else {
      return (
