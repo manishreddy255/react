@@ -4,10 +4,6 @@ import Menu from './MenuComponent';
 import Contact from './ContactComponent'
 import About from './AboutComponent';
 import DishDetail from './DishDetail';
-import { DISHES } from '../shared/dishes';
-import { COMMENTS } from '../shared/comments';
-import { PROMOTIONS } from '../shared/promotions'
-import { LEADERS } from '../shared/leaders'
 import Header from './HeaderComp';
 import Footer from './FooterComp';
 import { Switch, Route, Redirect, withRouter} from 'react-router-dom'
